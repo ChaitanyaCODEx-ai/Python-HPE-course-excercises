@@ -1,0 +1,4 @@
+Data types - Mutable and Imutable data types
+Primitive and complex data types
+explicit and implicit data types
+Primitive data types - 1. String
