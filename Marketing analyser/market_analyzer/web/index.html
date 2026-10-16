@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tier 2/3 Expansion Analyzer</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap">
+  <div class="top"><div class="brand"><div class="pin"><i></i></div><h1>Where should the next store open?</h1></div>
+    <button class="ghost" id="theme">Light / dark</button></div>
+  <p>Drag the assumptions, tune what matters, test your own instincts, and bring your own cities. Every result is calculated by the Python engine.</p>
+  <div class="seg tabs" id="tabs"><button data-v="explore" aria-pressed="true">Explore</button><button data-v="compare" aria-pressed="false">Compare</button><button data-v="challenge" aria-pressed="false">Beat the model</button><button data-v="data" aria-pressed="false">Your data</button></div>
+</div></header>
+<main>
+<section class="view on" id="v-explore">
+  <aside class="card panel"><h2>Brand assumptions</h2><div id="ctls"></div>
+    <details><summary>What matters to you?</summary><p class="hint">Re-weight the feasibility score. Points always total 100.</p><div id="wts"></div><button class="btn alt" id="wreset">Reset weights</button></details></aside>
+  <div>
+    <div class="kpis" id="kpis"></div>
+    <div class="card" style="margin-bottom:20px"><h2>Profit vs readiness <span class="hint">bubble size = revenue. Click a bubble to open that city.</span></h2><svg id="chart" viewBox="0 0 640 300"></svg></div>
+    <div class="card">
+      <div class="bar"><div class="seg" id="seg"></div>
+        <div class="filters"><select id="tier" aria-label="Tier"><option value="all">All tiers</option><option value="2">Tier 2</option><option value="3">Tier 3</option></select><select id="state" aria-label="State"></select></div></div>
+      <div class="tw"><table><thead><tr><th>Pin</th><th>#</th><th>City</th><th>Revenue</th><th class="s" data-k="profit">Net profit</th><th>Payback</th><th class="s" data-k="roi">ROI</th><th class="s" data-k="feasibility">Feasibility</th></tr></thead><tbody id="rows"></tbody></table></div>
+      <p class="note">Click a column heading to re-rank. Click a city for its working. Pin up to 3 to compare.</p></div>
+    <div class="card" style="margin-top:20px"><h2>Does the ranking hold up?</h2><div class="tw"><table><thead><tr><th>#</th><th>City</th><th>Conservative</th><th>Base</th><th>Optimistic</th><th>Ranks C / B / O</th><th>Verdict</th></tr></thead><tbody id="srows"></tbody></table></div></div>
+  </div>
+</section>
+<section class="view" id="v-compare"><div class="card"><h2>Head to head</h2><div id="radar"></div></div></section>
+<section class="view" id="v-challenge"><div class="card"><h2>Can you beat the model?</h2><p class="hint">Managers often decide by instinct. Pick the 3 cities you think deserve the first store, then reveal how they really perform.</p>
+  <div class="picks" id="picks"></div><button class="btn" id="reveal" disabled>Pick 3 cities</button> <button class="btn alt" id="again" hidden>Try again</button><div id="result"></div></div></section>
+<section class="view" id="v-data"><div class="two">
+  <div class="card"><h2>Add a city</h2><form id="form" class="form"></form><p class="warn" id="ferr"></p><p class="hint">The Python validator checks every field, so bad values are rejected with a reason.</p></div>
+  <div class="card"><h2>Upload a CSV</h2><div id="drop" tabindex="0">Drop a cities CSV here, or click to browse<input type="file" id="file" accept=".csv" hidden></div><div id="warns"></div>
+    <h2 style="margin-top:20px">Export</h2><button class="btn" data-x="txt">Report (.txt)</button> <button class="btn alt" data-x="csv">Table (.csv)</button> <button class="btn alt" data-x="json">Full data (.json)</button>
+    <p style="margin-top:16px"><button class="btn alt" id="reset">Restore sample cities</button></p></div></div>
+  <div class="card" style="margin-top:20px"><h2>Cities in play <span class="hint" id="count"></span></h2><div class="tw"><table><tbody id="clist"></tbody></table></div></div></section>
+</main>
+<div id="tip"></div><div id="toast" role="alert"></div>
+<script src="app.js"></script>
+</body>
+</html>

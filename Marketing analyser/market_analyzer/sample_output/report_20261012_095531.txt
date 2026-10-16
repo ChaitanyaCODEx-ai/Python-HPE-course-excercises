@@ -1,0 +1,247 @@
+====================================================================================================
+TIER 2/3 MARKET EXPANSION PROFITABILITY ANALYZER
+Generated: 2026-10-12 09:55:31   |   Main ranking scenario: base   |   Sorted by: roi
+====================================================================================================
+ASSUMPTIONS USED (base inputs)
+  AOV 2,000 | conversion 25% | footfall 15%
+  setup cost 20,000,000 | base rent 3,000,000 | staff 3,500,000 | fixed opex 1,500,000
+
+RANKED TABLE
+Rank City            Tier     Revenue  Net Profit     Payback      ROI  Feasibility
+-----------------------------------------------------------------------------------
+1    Indore          T2         49.5M       41.6M    0.48 yrs   208.2%     77.9/100
+2    Nagpur          T2         37.5M       29.8M    0.67 yrs   149.0%     74.8/100
+3    Coimbatore      T2         33.1M       25.5M    0.78 yrs   127.6%     73.8/100
+4    Raipur          T2         21.7M       14.4M    1.39 yrs    72.1%     63.5/100
+5    Nashik          T2         20.2M       12.8M    1.56 yrs    64.2%     68.7/100
+6    Bhubaneswar     T2         18.0M       10.4M    1.91 yrs    52.2%     65.9/100
+7    Jabalpur        T2         14.6M        7.5M    2.66 yrs    37.6%     61.9/100
+8    Ranchi          T2         13.2M        6.1M    3.28 yrs    30.5%     61.8/100
+9    Bilaspur        T2          8.4M        1.6M   12.50 yrs     8.0%     62.3/100
+10   Amravati        T3          7.9M        1.1M   18.60 yrs     5.4%     57.4/100
+11   Durg            T3          4.7M       -1.9M       Never    -9.6%     60.2/100  <-- UNPROFITABLE
+12   Satna           T3          3.1M       -3.4M       Never   -16.9%     57.9/100  <-- UNPROFITABLE
+13   Raigarh         T3          2.0M       -4.5M       Never   -22.6%     57.6/100  <-- UNPROFITABLE
+
+PER-CITY EXPLANATION (formula steps and feasibility breakdown)
+
+#1 Indore, Madhya Pradesh (Tier 2)
+  Addressable population = 3,000,000 x 0.22 = 660,000
+  Annual visitors        = 660,000 x 0.150 = 99,000
+  Annual revenue         = 99,000 x 0.250 x 2,000 = 49,500,000
+  Operating cost         = (3,000,000 x 0.95) + 3,500,000 + 1,500,000 = 7,850,000
+  Net profit             = 49,500,000 - 7,850,000 = 41,650,000
+  Payback                = 20,000,000 / 41,650,000 = 0.48 yrs
+  ROI                    = 41,650,000 / 20,000,000 x 100 = 208.2%
+  Feasibility 77.9/100:
+    - Market size: 25/25 (addressable population 660,000 is 100% of the largest city)
+    - Income strength: 25/25 (avg household income 720,000 is 100% of the highest)
+    - Competition: 8/20 (high competition level 4)
+    - Rent affordability: 7.9/15 (rent index 0.95 vs lowest 0.50 in dataset)
+    - Infrastructure: 12/15 (infrastructure score 8/10)
+
+#2 Nagpur, Maharashtra (Tier 2)
+  Addressable population = 2,500,000 x 0.20 = 500,000
+  Annual visitors        = 500,000 x 0.150 = 75,000
+  Annual revenue         = 75,000 x 0.250 x 2,000 = 37,500,000
+  Operating cost         = (3,000,000 x 0.90) + 3,500,000 + 1,500,000 = 7,700,000
+  Net profit             = 37,500,000 - 7,700,000 = 29,800,000
+  Payback                = 20,000,000 / 29,800,000 = 0.67 yrs
+  ROI                    = 29,800,000 / 20,000,000 x 100 = 149.0%
+  Feasibility 74.8/100:
+    - Market size: 18.9/25 (addressable population 500,000 is 76% of the largest city)
+    - Income strength: 23.6/25 (avg household income 680,000 is 94% of the highest)
+    - Competition: 12/20 (moderate competition level 3)
+    - Rent affordability: 8.3/15 (rent index 0.90 vs lowest 0.50 in dataset)
+    - Infrastructure: 12/15 (infrastructure score 8/10)
+
+#3 Coimbatore, Tamil Nadu (Tier 2)
+  Addressable population = 2,100,000 x 0.21 = 441,000
+  Annual visitors        = 441,000 x 0.150 = 66,150
+  Annual revenue         = 66,150 x 0.250 x 2,000 = 33,075,000
+  Operating cost         = (3,000,000 x 0.85) + 3,500,000 + 1,500,000 = 7,550,000
+  Net profit             = 33,075,000 - 7,550,000 = 25,525,000
+  Payback                = 20,000,000 / 25,525,000 = 0.78 yrs
+  ROI                    = 25,525,000 / 20,000,000 x 100 = 127.6%
+  Feasibility 73.8/100:
+    - Market size: 16.7/25 (addressable population 441,000 is 67% of the largest city)
+    - Income strength: 24.3/25 (avg household income 700,000 is 97% of the highest)
+    - Competition: 12/20 (moderate competition level 3)
+    - Rent affordability: 8.8/15 (rent index 0.85 vs lowest 0.50 in dataset)
+    - Infrastructure: 12/15 (infrastructure score 8/10)
+
+#4 Raipur, Chhattisgarh (Tier 2)
+  Addressable population = 1,700,000 x 0.17 = 289,000
+  Annual visitors        = 289,000 x 0.150 = 43,350
+  Annual revenue         = 43,350 x 0.250 x 2,000 = 21,675,000
+  Operating cost         = (3,000,000 x 0.75) + 3,500,000 + 1,500,000 = 7,250,000
+  Net profit             = 21,675,000 - 7,250,000 = 14,425,000
+  Payback                = 20,000,000 / 14,425,000 = 1.39 yrs
+  ROI                    = 14,425,000 / 20,000,000 x 100 = 72.1%
+  Feasibility 63.5/100:
+    - Market size: 10.9/25 (addressable population 289,000 is 44% of the largest city)
+    - Income strength: 20.1/25 (avg household income 580,000 is 81% of the highest)
+    - Competition: 12/20 (moderate competition level 3)
+    - Rent affordability: 10/15 (rent index 0.75 vs lowest 0.50 in dataset)
+    - Infrastructure: 10.5/15 (infrastructure score 7/10)
+
+#5 Nashik, Maharashtra (Tier 2)
+  Addressable population = 1,500,000 x 0.18 = 270,000
+  Annual visitors        = 270,000 x 0.150 = 40,500
+  Annual revenue         = 40,500 x 0.250 x 2,000 = 20,250,000
+  Operating cost         = (3,000,000 x 0.80) + 3,500,000 + 1,500,000 = 7,400,000
+  Net profit             = 20,250,000 - 7,400,000 = 12,850,000
+  Payback                = 20,000,000 / 12,850,000 = 1.56 yrs
+  ROI                    = 12,850,000 / 20,000,000 x 100 = 64.2%
+  Feasibility 68.7/100:
+    - Market size: 10.2/25 (addressable population 270,000 is 41% of the largest city)
+    - Income strength: 22.6/25 (avg household income 650,000 is 90% of the highest)
+    - Competition: 16/20 (low competition level 2)
+    - Rent affordability: 9.4/15 (rent index 0.80 vs lowest 0.50 in dataset)
+    - Infrastructure: 10.5/15 (infrastructure score 7/10)
+
+#6 Bhubaneswar, Odisha (Tier 2)
+  Addressable population = 1,200,000 x 0.20 = 240,000
+  Annual visitors        = 240,000 x 0.150 = 36,000
+  Annual revenue         = 36,000 x 0.250 x 2,000 = 18,000,000
+  Operating cost         = (3,000,000 x 0.85) + 3,500,000 + 1,500,000 = 7,550,000
+  Net profit             = 18,000,000 - 7,550,000 = 10,450,000
+  Payback                = 20,000,000 / 10,450,000 = 1.91 yrs
+  ROI                    = 10,450,000 / 20,000,000 x 100 = 52.2%
+  Feasibility 65.9/100:
+    - Market size: 9.1/25 (addressable population 240,000 is 36% of the largest city)
+    - Income strength: 24/25 (avg household income 690,000 is 96% of the highest)
+    - Competition: 12/20 (moderate competition level 3)
+    - Rent affordability: 8.8/15 (rent index 0.85 vs lowest 0.50 in dataset)
+    - Infrastructure: 12/15 (infrastructure score 8/10)
+
+#7 Jabalpur, Madhya Pradesh (Tier 2)
+  Addressable population = 1,300,000 x 0.15 = 195,000
+  Annual visitors        = 195,000 x 0.150 = 29,250
+  Annual revenue         = 29,250 x 0.250 x 2,000 = 14,625,000
+  Operating cost         = (3,000,000 x 0.70) + 3,500,000 + 1,500,000 = 7,100,000
+  Net profit             = 14,625,000 - 7,100,000 = 7,525,000
+  Payback                = 20,000,000 / 7,525,000 = 2.66 yrs
+  ROI                    = 7,525,000 / 20,000,000 x 100 = 37.6%
+  Feasibility 61.9/100:
+    - Market size: 7.4/25 (addressable population 195,000 is 30% of the largest city)
+    - Income strength: 18.8/25 (avg household income 540,000 is 75% of the highest)
+    - Competition: 16/20 (low competition level 2)
+    - Rent affordability: 10.7/15 (rent index 0.70 vs lowest 0.50 in dataset)
+    - Infrastructure: 9/15 (infrastructure score 6/10)
+
+#8 Ranchi, Jharkhand (Tier 2)
+  Addressable population = 1,100,000 x 0.16 = 176,000
+  Annual visitors        = 176,000 x 0.150 = 26,400
+  Annual revenue         = 26,400 x 0.250 x 2,000 = 13,200,000
+  Operating cost         = (3,000,000 x 0.70) + 3,500,000 + 1,500,000 = 7,100,000
+  Net profit             = 13,200,000 - 7,100,000 = 6,100,000
+  Payback                = 20,000,000 / 6,100,000 = 3.28 yrs
+  ROI                    = 6,100,000 / 20,000,000 x 100 = 30.5%
+  Feasibility 61.8/100:
+    - Market size: 6.7/25 (addressable population 176,000 is 27% of the largest city)
+    - Income strength: 19.4/25 (avg household income 560,000 is 78% of the highest)
+    - Competition: 16/20 (low competition level 2)
+    - Rent affordability: 10.7/15 (rent index 0.70 vs lowest 0.50 in dataset)
+    - Infrastructure: 9/15 (infrastructure score 6/10)
+
+#9 Bilaspur, Chhattisgarh (Tier 2)
+  Addressable population = 700,000 x 0.16 = 112,000
+  Annual visitors        = 112,000 x 0.150 = 16,800
+  Annual revenue         = 16,800 x 0.250 x 2,000 = 8,400,000
+  Operating cost         = (3,000,000 x 0.60) + 3,500,000 + 1,500,000 = 6,800,000
+  Net profit             = 8,400,000 - 6,800,000 = 1,600,000
+  Payback                = 20,000,000 / 1,600,000 = 12.50 yrs
+  ROI                    = 1,600,000 / 20,000,000 x 100 = 8.0%
+  Feasibility 62.3/100:
+    - Market size: 4.2/25 (addressable population 112,000 is 17% of the largest city)
+    - Income strength: 18.1/25 (avg household income 520,000 is 72% of the highest)
+    - Competition: 20/20 (low competition level 1)
+    - Rent affordability: 12.5/15 (rent index 0.60 vs lowest 0.50 in dataset)
+    - Infrastructure: 7.5/15 (infrastructure score 5/10)
+
+#10 Amravati, Maharashtra (Tier 3)
+  Addressable population = 750,000 x 0.14 = 105,000
+  Annual visitors        = 105,000 x 0.150 = 15,750
+  Annual revenue         = 15,750 x 0.250 x 2,000 = 7,875,000
+  Operating cost         = (3,000,000 x 0.60) + 3,500,000 + 1,500,000 = 6,800,000
+  Net profit             = 7,875,000 - 6,800,000 = 1,075,000
+  Payback                = 20,000,000 / 1,075,000 = 18.60 yrs
+  ROI                    = 1,075,000 / 20,000,000 x 100 = 5.4%
+  Feasibility 57.4/100:
+    - Market size: 4/25 (addressable population 105,000 is 16% of the largest city)
+    - Income strength: 17.4/25 (avg household income 500,000 is 69% of the highest)
+    - Competition: 16/20 (low competition level 2)
+    - Rent affordability: 12.5/15 (rent index 0.60 vs lowest 0.50 in dataset)
+    - Infrastructure: 7.5/15 (infrastructure score 5/10)
+
+#11 Durg, Chhattisgarh (Tier 3)
+  Addressable population = 450,000 x 0.14 = 63,000
+  Annual visitors        = 63,000 x 0.150 = 9,450
+  Annual revenue         = 9,450 x 0.250 x 2,000 = 4,725,000
+  Operating cost         = (3,000,000 x 0.55) + 3,500,000 + 1,500,000 = 6,650,000
+  Net profit             = 4,725,000 - 6,650,000 = -1,925,000
+  Payback                = Never (net profit is -1,925,000, not positive)
+  ROI                    = -1,925,000 / 20,000,000 x 100 = -9.6%
+  Feasibility 60.2/100:
+    - Market size: 2.4/25 (addressable population 63,000 is 10% of the largest city)
+    - Income strength: 16.7/25 (avg household income 480,000 is 67% of the highest)
+    - Competition: 20/20 (low competition level 1)
+    - Rent affordability: 13.6/15 (rent index 0.55 vs lowest 0.50 in dataset)
+    - Infrastructure: 7.5/15 (infrastructure score 5/10)
+
+#12 Satna, Madhya Pradesh (Tier 3)
+  Addressable population = 320,000 x 0.13 = 41,600
+  Annual visitors        = 41,600 x 0.150 = 6,240
+  Annual revenue         = 6,240 x 0.250 x 2,000 = 3,120,000
+  Operating cost         = (3,000,000 x 0.50) + 3,500,000 + 1,500,000 = 6,500,000
+  Net profit             = 3,120,000 - 6,500,000 = -3,380,000
+  Payback                = Never (net profit is -3,380,000, not positive)
+  ROI                    = -3,380,000 / 20,000,000 x 100 = -16.9%
+  Feasibility 57.9/100:
+    - Market size: 1.6/25 (addressable population 41,600 is 6% of the largest city)
+    - Income strength: 15.3/25 (avg household income 440,000 is 61% of the highest)
+    - Competition: 20/20 (low competition level 1)
+    - Rent affordability: 15/15 (rent index 0.50 vs lowest 0.50 in dataset)
+    - Infrastructure: 6/15 (infrastructure score 4/10)
+
+#13 Raigarh, Chhattisgarh (Tier 3)
+  Addressable population = 220,000 x 0.12 = 26,400
+  Annual visitors        = 26,400 x 0.150 = 3,960
+  Annual revenue         = 3,960 x 0.250 x 2,000 = 1,980,000
+  Operating cost         = (3,000,000 x 0.50) + 3,500,000 + 1,500,000 = 6,500,000
+  Net profit             = 1,980,000 - 6,500,000 = -4,520,000
+  Payback                = Never (net profit is -4,520,000, not positive)
+  ROI                    = -4,520,000 / 20,000,000 x 100 = -22.6%
+  Feasibility 57.6/100:
+    - Market size: 1/25 (addressable population 26,400 is 4% of the largest city)
+    - Income strength: 15.6/25 (avg household income 450,000 is 62% of the highest)
+    - Competition: 20/20 (low competition level 1)
+    - Rent affordability: 15/15 (rent index 0.50 vs lowest 0.50 in dataset)
+    - Infrastructure: 6/15 (infrastructure score 4/10)
+
+SCENARIO ANALYSIS (ROI and rank in each case)
+City              Conservative     Base  Optimistic   Ranks (C/B/O)  Change  Robust?
+------------------------------------------------------------------------------------
+Indore                  115.2%   208.2%      321.1%           1/1/1       0  ROBUST
+Nagpur                   77.6%   149.0%      235.3%           2/2/2       0  ROBUST
+Coimbatore               64.3%   127.6%      204.2%           3/3/3       0  ROBUST
+Raipur                   29.5%    72.1%      123.4%           4/4/4       0  -
+Nashik                   24.1%    64.2%      112.5%           5/5/5       0  -
+Bhubaneswar              16.1%    52.2%       95.6%           6/6/6       0  -
+Jabalpur                  7.8%    37.6%       73.4%           7/7/7       0  -
+Ranchi                    3.2%    30.5%       63.1%           8/8/8       0  -
+Bilaspur                -10.5%     8.0%       29.9%           9/9/9       0  -
+Amravati                -12.2%     5.4%       26.1%        10/10/10       0  -
+Durg                    -21.5%    -9.6%        4.1%        11/11/11       0  -
+Satna                   -25.8%   -16.9%       -6.8%        12/12/12       0  -
+Raigarh                 -29.4%   -22.6%      -15.0%        13/13/13       0  -
+Robust = in the top 3 by ROI under all three scenarios.
+
+SUMMARY
+  Cities analyzed: 13  |  Profitable: 10  |  Loss-making: 3
+  Best ROI : Indore (208.2%)   Worst ROI: Raigarh (-22.6%)
+  Mean ROI : 54.3%   Median ROI: 37.6%
+
+LIMITATIONS
+  Results are estimates from stated assumptions, not predictions or financial advice. City data is static and illustrative; one store per city and uniform brand inputs are assumed; seasonality, inflation, and competitor reactions are not modeled.

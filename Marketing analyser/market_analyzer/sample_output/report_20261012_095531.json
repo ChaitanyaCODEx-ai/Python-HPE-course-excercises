@@ -1,0 +1,794 @@
+{
+  "generated": "2026-10-12T09:55:31",
+  "inputs": {
+    "aov": 2000.0,
+    "conversion_rate": 0.25,
+    "footfall_rate": 0.15,
+    "setup_cost": 20000000.0,
+    "base_rent": 3000000.0,
+    "staff_cost": 3500000.0,
+    "fixed_opex": 1500000.0
+  },
+  "ranked": [
+    {
+      "rank": 1,
+      "city": "Indore",
+      "state": "Madhya Pradesh",
+      "tier": 2,
+      "revenue": 49500000.0,
+      "operating_cost": 7850000.0,
+      "net_profit": 41650000.0,
+      "payback_years": 0.48,
+      "roi_pct": 208.25,
+      "feasibility": 77.9,
+      "feasibility_breakdown": [
+        {
+          "factor": "Market size",
+          "points": 25.0,
+          "max": 25.0,
+          "reason": "addressable population 660,000 is 100% of the largest city"
+        },
+        {
+          "factor": "Income strength",
+          "points": 25.0,
+          "max": 25.0,
+          "reason": "avg household income 720,000 is 100% of the highest"
+        },
+        {
+          "factor": "Competition",
+          "points": 8.0,
+          "max": 20.0,
+          "reason": "high competition level 4"
+        },
+        {
+          "factor": "Rent affordability",
+          "points": 7.9,
+          "max": 15.0,
+          "reason": "rent index 0.95 vs lowest 0.50 in dataset"
+        },
+        {
+          "factor": "Infrastructure",
+          "points": 12.0,
+          "max": 15.0,
+          "reason": "infrastructure score 8/10"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "tier": 2,
+      "revenue": 37500000.0,
+      "operating_cost": 7700000.0,
+      "net_profit": 29800000.0,
+      "payback_years": 0.67,
+      "roi_pct": 149.0,
+      "feasibility": 74.8,
+      "feasibility_breakdown": [
+        {
+          "factor": "Market size",
+          "points": 18.9,
+          "max": 25.0,
+          "reason": "addressable population 500,000 is 76% of the largest city"
+        },
+        {
+          "factor": "Income strength",
+          "points": 23.6,
+          "max": 25.0,
+          "reason": "avg household income 680,000 is 94% of the highest"
+        },
+        {
+          "factor": "Competition",
+          "points": 12.0,
+          "max": 20.0,
+          "reason": "moderate competition level 3"
+        },
+        {
+          "factor": "Rent affordability",
+          "points": 8.3,
+          "max": 15.0,
+          "reason": "rent index 0.90 vs lowest 0.50 in dataset"
+        },
+        {
+          "factor": "Infrastructure",
+          "points": 12.0,
+          "max": 15.0,
+          "reason": "infrastructure score 8/10"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "tier": 2,
+      "revenue": 33075000.0,
+      "operating_cost": 7550000.0,
+      "net_profit": 25525000.0,
+      "payback_years": 0.78,
+      "roi_pct": 127.63,
+      "feasibility": 73.8,
+      "feasibility_breakdown": [
+        {
+          "factor": "Market size",
+          "points": 16.7,
+          "max": 25.0,
+          "reason": "addressable population 441,000 is 67% of the largest city"
+        },
+        {
+          "factor": "Income strength",
+          "points": 24.3,
+          "max": 25.0,
+          "reason": "avg household income 700,000 is 97% of the highest"
+        },
+        {
+          "factor": "Competition",
+          "points": 12.0,
+          "max": 20.0,
+          "reason": "moderate competition level 3"
+        },
+        {
+          "factor": "Rent affordability",
+          "points": 8.8,
+          "max": 15.0,
+          "reason": "rent index 0.85 vs lowest 0.50 in dataset"
+        },
+        {
+          "factor": "Infrastructure",
+          "points": 12.0,
+          "max": 15.0,
+          "reason": "infrastructure score 8/10"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "city": "Raipur",
+      "state": "Chhattisgarh",
+      "tier": 2,
+      "revenue": 21675000.0,
+      "operating_cost": 7250000.0,
+      "net_profit": 14425000.0,
+      "payback_years": 1.39,
+      "roi_pct": 72.12,
+      "feasibility": 63.5,
+      "feasibility_breakdown": [
+        {
+          "factor": "Market size",
+          "points": 10.9,
+          "max": 25.0,
+          "reason": "addressable population 289,000 is 44% of the largest city"
+        },
+        {
+          "factor": "Income strength",
+          "points": 20.1,
+          "max": 25.0,
+          "reason": "avg household income 580,000 is 81% of the highest"
+        },
+        {
+          "factor": "Competition",
+          "points": 12.0,
+          "max": 20.0,
+          "reason": "moderate competition level 3"
+        },
+        {
+          "factor": "Rent affordability",
+          "points": 10.0,
+          "max": 15.0,
+          "reason": "rent index 0.75 vs lowest 0.50 in dataset"
+        },
+        {
+          "factor": "Infrastructure",
+          "points": 10.5,
+          "max": 15.0,
+          "reason": "infrastructure score 7/10"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "city": "Nashik",
+      "state": "Maharashtra",
+      "tier": 2,
+      "revenue": 20250000.0,
+      "operating_cost": 7400000.0,
+      "net_profit": 12850000.0,
+      "payback_years": 1.56,
+      "roi_pct": 64.25,
+      "feasibility": 68.7,
+      "feasibility_breakdown": [
+        {
+          "factor": "Market size",
+          "points": 10.2,
+          "max": 25.0,
+          "reason": "addressable population 270,000 is 41% of the largest city"
+        },
+        {
+          "factor": "Income strength",
+          "points": 22.6,
+          "max": 25.0,
+          "reason": "avg household income 650,000 is 90% of the highest"
+        },
+        {
+          "factor": "Competition",
+          "points": 16.0,
+          "max": 20.0,
+          "reason": "low competition level 2"
+        },
+        {
+          "factor": "Rent affordability",
+          "points": 9.4,
+          "max": 15.0,
+          "reason": "rent index 0.80 vs lowest 0.50 in dataset"
+        },
+        {
+          "factor": "Infrastructure",
+          "points": 10.5,
+          "max": 15.0,
+          "reason": "infrastructure score 7/10"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "city": "Bhubaneswar",
+      "state": "Odisha",
+      "tier": 2,
+      "revenue": 18000000.0,
+      "operating_cost": 7550000.0,
+      "net_profit": 10450000.0,
+      "payback_years": 1.91,
+      "roi_pct": 52.25,
+      "feasibility": 65.9,
+      "feasibility_breakdown": [
+        {
+          "factor": "Market size",
+          "points": 9.1,
+          "max": 25.0,
+          "reason": "addressable population 240,000 is 36% of the largest city"
+        },
+        {
+          "factor": "Income strength",
+          "points": 24.0,
+          "max": 25.0,
+          "reason": "avg household income 690,000 is 96% of the highest"
+        },
+        {
+          "factor": "Competition",
+          "points": 12.0,
+          "max": 20.0,
+          "reason": "moderate competition level 3"
+        },
+        {
+          "factor": "Rent affordability",
+          "points": 8.8,
+          "max": 15.0,
+          "reason": "rent index 0.85 vs lowest 0.50 in dataset"
+        },
+        {
+          "factor": "Infrastructure",
+          "points": 12.0,
+          "max": 15.0,
+          "reason": "infrastructure score 8/10"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "city": "Jabalpur",
+      "state": "Madhya Pradesh",
+      "tier": 2,
+      "revenue": 14625000.0,
+      "operating_cost": 7100000.0,
+      "net_profit": 7525000.0,
+      "payback_years": 2.66,
+      "roi_pct": 37.62,
+      "feasibility": 61.9,
+      "feasibility_breakdown": [
+        {
+          "factor": "Market size",
+          "points": 7.4,
+          "max": 25.0,
+          "reason": "addressable population 195,000 is 30% of the largest city"
+        },
+        {
+          "factor": "Income strength",
+          "points": 18.8,
+          "max": 25.0,
+          "reason": "avg household income 540,000 is 75% of the highest"
+        },
+        {
+          "factor": "Competition",
+          "points": 16.0,
+          "max": 20.0,
+          "reason": "low competition level 2"
+        },
+        {
+          "factor": "Rent affordability",
+          "points": 10.7,
+          "max": 15.0,
+          "reason": "rent index 0.70 vs lowest 0.50 in dataset"
+        },
+        {
+          "factor": "Infrastructure",
+          "points": 9.0,
+          "max": 15.0,
+          "reason": "infrastructure score 6/10"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "city": "Ranchi",
+      "state": "Jharkhand",
+      "tier": 2,
+      "revenue": 13200000.0,
+      "operating_cost": 7100000.0,
+      "net_profit": 6100000.0,
+      "payback_years": 3.28,
+      "roi_pct": 30.5,
+      "feasibility": 61.8,
+      "feasibility_breakdown": [
+        {
+          "factor": "Market size",
+          "points": 6.7,
+          "max": 25.0,
+          "reason": "addressable population 176,000 is 27% of the largest city"
+        },
+        {
+          "factor": "Income strength",
+          "points": 19.4,
+          "max": 25.0,
+          "reason": "avg household income 560,000 is 78% of the highest"
+        },
+        {
+          "factor": "Competition",
+          "points": 16.0,
+          "max": 20.0,
+          "reason": "low competition level 2"
+        },
+        {
+          "factor": "Rent affordability",
+          "points": 10.7,
+          "max": 15.0,
+          "reason": "rent index 0.70 vs lowest 0.50 in dataset"
+        },
+        {
+          "factor": "Infrastructure",
+          "points": 9.0,
+          "max": 15.0,
+          "reason": "infrastructure score 6/10"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "city": "Bilaspur",
+      "state": "Chhattisgarh",
+      "tier": 2,
+      "revenue": 8400000.0,
+      "operating_cost": 6800000.0,
+      "net_profit": 1600000.0,
+      "payback_years": 12.5,
+      "roi_pct": 8.0,
+      "feasibility": 62.3,
+      "feasibility_breakdown": [
+        {
+          "factor": "Market size",
+          "points": 4.2,
+          "max": 25.0,
+          "reason": "addressable population 112,000 is 17% of the largest city"
+        },
+        {
+          "factor": "Income strength",
+          "points": 18.1,
+          "max": 25.0,
+          "reason": "avg household income 520,000 is 72% of the highest"
+        },
+        {
+          "factor": "Competition",
+          "points": 20.0,
+          "max": 20.0,
+          "reason": "low competition level 1"
+        },
+        {
+          "factor": "Rent affordability",
+          "points": 12.5,
+          "max": 15.0,
+          "reason": "rent index 0.60 vs lowest 0.50 in dataset"
+        },
+        {
+          "factor": "Infrastructure",
+          "points": 7.5,
+          "max": 15.0,
+          "reason": "infrastructure score 5/10"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "city": "Amravati",
+      "state": "Maharashtra",
+      "tier": 3,
+      "revenue": 7875000.0,
+      "operating_cost": 6800000.0,
+      "net_profit": 1075000.0,
+      "payback_years": 18.6,
+      "roi_pct": 5.38,
+      "feasibility": 57.4,
+      "feasibility_breakdown": [
+        {
+          "factor": "Market size",
+          "points": 4.0,
+          "max": 25.0,
+          "reason": "addressable population 105,000 is 16% of the largest city"
+        },
+        {
+          "factor": "Income strength",
+          "points": 17.4,
+          "max": 25.0,
+          "reason": "avg household income 500,000 is 69% of the highest"
+        },
+        {
+          "factor": "Competition",
+          "points": 16.0,
+          "max": 20.0,
+          "reason": "low competition level 2"
+        },
+        {
+          "factor": "Rent affordability",
+          "points": 12.5,
+          "max": 15.0,
+          "reason": "rent index 0.60 vs lowest 0.50 in dataset"
+        },
+        {
+          "factor": "Infrastructure",
+          "points": 7.5,
+          "max": 15.0,
+          "reason": "infrastructure score 5/10"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "city": "Durg",
+      "state": "Chhattisgarh",
+      "tier": 3,
+      "revenue": 4725000.0,
+      "operating_cost": 6650000.0,
+      "net_profit": -1925000.0,
+      "payback_years": "Never",
+      "roi_pct": -9.62,
+      "feasibility": 60.2,
+      "feasibility_breakdown": [
+        {
+          "factor": "Market size",
+          "points": 2.4,
+          "max": 25.0,
+          "reason": "addressable population 63,000 is 10% of the largest city"
+        },
+        {
+          "factor": "Income strength",
+          "points": 16.7,
+          "max": 25.0,
+          "reason": "avg household income 480,000 is 67% of the highest"
+        },
+        {
+          "factor": "Competition",
+          "points": 20.0,
+          "max": 20.0,
+          "reason": "low competition level 1"
+        },
+        {
+          "factor": "Rent affordability",
+          "points": 13.6,
+          "max": 15.0,
+          "reason": "rent index 0.55 vs lowest 0.50 in dataset"
+        },
+        {
+          "factor": "Infrastructure",
+          "points": 7.5,
+          "max": 15.0,
+          "reason": "infrastructure score 5/10"
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "city": "Satna",
+      "state": "Madhya Pradesh",
+      "tier": 3,
+      "revenue": 3120000.0,
+      "operating_cost": 6500000.0,
+      "net_profit": -3380000.0,
+      "payback_years": "Never",
+      "roi_pct": -16.9,
+      "feasibility": 57.9,
+      "feasibility_breakdown": [
+        {
+          "factor": "Market size",
+          "points": 1.6,
+          "max": 25.0,
+          "reason": "addressable population 41,600 is 6% of the largest city"
+        },
+        {
+          "factor": "Income strength",
+          "points": 15.3,
+          "max": 25.0,
+          "reason": "avg household income 440,000 is 61% of the highest"
+        },
+        {
+          "factor": "Competition",
+          "points": 20.0,
+          "max": 20.0,
+          "reason": "low competition level 1"
+        },
+        {
+          "factor": "Rent affordability",
+          "points": 15.0,
+          "max": 15.0,
+          "reason": "rent index 0.50 vs lowest 0.50 in dataset"
+        },
+        {
+          "factor": "Infrastructure",
+          "points": 6.0,
+          "max": 15.0,
+          "reason": "infrastructure score 4/10"
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "city": "Raigarh",
+      "state": "Chhattisgarh",
+      "tier": 3,
+      "revenue": 1980000.0,
+      "operating_cost": 6500000.0,
+      "net_profit": -4520000.0,
+      "payback_years": "Never",
+      "roi_pct": -22.6,
+      "feasibility": 57.6,
+      "feasibility_breakdown": [
+        {
+          "factor": "Market size",
+          "points": 1.0,
+          "max": 25.0,
+          "reason": "addressable population 26,400 is 4% of the largest city"
+        },
+        {
+          "factor": "Income strength",
+          "points": 15.6,
+          "max": 25.0,
+          "reason": "avg household income 450,000 is 62% of the highest"
+        },
+        {
+          "factor": "Competition",
+          "points": 20.0,
+          "max": 20.0,
+          "reason": "low competition level 1"
+        },
+        {
+          "factor": "Rent affordability",
+          "points": 15.0,
+          "max": 15.0,
+          "reason": "rent index 0.50 vs lowest 0.50 in dataset"
+        },
+        {
+          "factor": "Infrastructure",
+          "points": 6.0,
+          "max": 15.0,
+          "reason": "infrastructure score 4/10"
+        }
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "city": "Indore",
+      "roi_pct": {
+        "conservative": 115.22,
+        "base": 208.25,
+        "optimistic": 321.07
+      },
+      "rank": {
+        "conservative": 1,
+        "base": 1,
+        "optimistic": 1
+      },
+      "rank_change": 0,
+      "robust": true
+    },
+    {
+      "city": "Nagpur",
+      "roi_pct": {
+        "conservative": 77.65,
+        "base": 149.0,
+        "optimistic": 235.35
+      },
+      "rank": {
+        "conservative": 2,
+        "base": 2,
+        "optimistic": 2
+      },
+      "rank_change": 0,
+      "robust": true
+    },
+    {
+      "city": "Coimbatore",
+      "roi_pct": {
+        "conservative": 64.31,
+        "base": 127.63,
+        "optimistic": 204.17
+      },
+      "rank": {
+        "conservative": 3,
+        "base": 3,
+        "optimistic": 3
+      },
+      "rank_change": 0,
+      "robust": true
+    },
+    {
+      "city": "Raipur",
+      "roi_pct": {
+        "conservative": 29.48,
+        "base": 72.12,
+        "optimistic": 123.44
+      },
+      "rank": {
+        "conservative": 4,
+        "base": 4,
+        "optimistic": 4
+      },
+      "rank_change": 0,
+      "robust": false
+    },
+    {
+      "city": "Nashik",
+      "roi_pct": {
+        "conservative": 24.1,
+        "base": 64.25,
+        "optimistic": 112.5
+      },
+      "rank": {
+        "conservative": 5,
+        "base": 5,
+        "optimistic": 5
+      },
+      "rank_change": 0,
+      "robust": false
+    },
+    {
+      "city": "Bhubaneswar",
+      "roi_pct": {
+        "conservative": 16.07,
+        "base": 52.25,
+        "optimistic": 95.62
+      },
+      "rank": {
+        "conservative": 6,
+        "base": 6,
+        "optimistic": 6
+      },
+      "rank_change": 0,
+      "robust": false
+    },
+    {
+      "city": "Jabalpur",
+      "roi_pct": {
+        "conservative": 7.75,
+        "base": 37.62,
+        "optimistic": 73.35
+      },
+      "rank": {
+        "conservative": 7,
+        "base": 7,
+        "optimistic": 7
+      },
+      "rank_change": 0,
+      "robust": false
+    },
+    {
+      "city": "Ranchi",
+      "roi_pct": {
+        "conservative": 3.19,
+        "base": 30.5,
+        "optimistic": 63.09
+      },
+      "rank": {
+        "conservative": 8,
+        "base": 8,
+        "optimistic": 8
+      },
+      "rank_change": 0,
+      "robust": false
+    },
+    {
+      "city": "Bilaspur",
+      "roi_pct": {
+        "conservative": -10.52,
+        "base": 8.0,
+        "optimistic": 29.88
+      },
+      "rank": {
+        "conservative": 9,
+        "base": 9,
+        "optimistic": 9
+      },
+      "rank_change": 0,
+      "robust": false
+    },
+    {
+      "city": "Amravati",
+      "roi_pct": {
+        "conservative": -12.2,
+        "base": 5.38,
+        "optimistic": 26.1
+      },
+      "rank": {
+        "conservative": 10,
+        "base": 10,
+        "optimistic": 10
+      },
+      "rank_change": 0,
+      "robust": false
+    },
+    {
+      "city": "Durg",
+      "roi_pct": {
+        "conservative": -21.45,
+        "base": -9.62,
+        "optimistic": 4.09
+      },
+      "rank": {
+        "conservative": 11,
+        "base": 11,
+        "optimistic": 11
+      },
+      "rank_change": 0,
+      "robust": false
+    },
+    {
+      "city": "Satna",
+      "roi_pct": {
+        "conservative": -25.77,
+        "base": -16.9,
+        "optimistic": -6.79
+      },
+      "rank": {
+        "conservative": 12,
+        "base": 12,
+        "optimistic": 12
+      },
+      "rank_change": 0,
+      "robust": false
+    },
+    {
+      "city": "Raigarh",
+      "roi_pct": {
+        "conservative": -29.41,
+        "base": -22.6,
+        "optimistic": -14.99
+      },
+      "rank": {
+        "conservative": 13,
+        "base": 13,
+        "optimistic": 13
+      },
+      "rank_change": 0,
+      "robust": false
+    }
+  ],
+  "summary": {
+    "cities_analyzed": 13,
+    "profitable": 10,
+    "loss_making": 3,
+    "best_city": "Indore",
+    "best_roi_pct": 208.25,
+    "worst_city": "Raigarh",
+    "worst_roi_pct": -22.6,
+    "mean_roi_pct": 54.3,
+    "median_roi_pct": 37.62
+  }
+}

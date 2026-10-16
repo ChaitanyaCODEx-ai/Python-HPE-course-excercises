@@ -1,0 +1,14 @@
+city,state,tier,population,target_income_share,avg_household_income,rent_index,competition_level,infrastructure_score
+Nashik,Maharashtra,2,1500000,0.18,650000,0.80,2,7
+Indore,Madhya Pradesh,2,3000000,0.22,720000,0.95,4,8
+Nagpur,Maharashtra,2,2500000,0.20,680000,0.90,3,8
+Coimbatore,Tamil Nadu,2,2100000,0.21,700000,0.85,3,8
+Raipur,Chhattisgarh,2,1700000,0.17,580000,0.75,3,7
+Bhubaneswar,Odisha,2,1200000,0.20,690000,0.85,3,8
+Jabalpur,Madhya Pradesh,2,1300000,0.15,540000,0.70,2,6
+Ranchi,Jharkhand,2,1100000,0.16,560000,0.70,2,6
+Bilaspur,Chhattisgarh,2,700000,0.16,520000,0.60,1,5
+Amravati,Maharashtra,3,750000,0.14,500000,0.60,2,5
+Durg,Chhattisgarh,3,450000,0.14,480000,0.55,1,5
+Satna,Madhya Pradesh,3,320000,0.13,440000,0.50,1,4
+Raigarh,Chhattisgarh,3,220000,0.12,450000,0.50,1,4

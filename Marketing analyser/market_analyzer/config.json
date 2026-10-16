@@ -1,0 +1,9 @@
+{
+  "aov": 2000,
+  "conversion_rate": 0.25,
+  "footfall_rate": 0.15,
+  "setup_cost": 20000000,
+  "base_rent": 3000000,
+  "staff_cost": 3500000,
+  "fixed_opex": 1500000
+}
