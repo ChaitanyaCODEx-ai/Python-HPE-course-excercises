@@ -15,4 +15,5 @@ pseudo <p>
 identation
 algorithm
 flow chart is a diagram of an algorithm. Each type of step has its own shape, and arrows show the order
-range
+range(5)---> 0,1,2,3,4
+range(0,10)----------> 0,1,2,..........9
