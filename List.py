@@ -44,3 +44,15 @@ if flag == True:
     print("Found")
 else:
     print("Not Found!!!!")
+ 
+fruit = []
+fruit.append('pineapple')
+print(fruit)
+fruit.extend(['kela','Santra','Jamun','AAAAAMMMM'])
+print(fruit)
+print(fruit[2])
+fruit.pop()
+print(fruit)
+fruit.pop(2)
+print(fruit)
+print(fruit.index('kela'))
